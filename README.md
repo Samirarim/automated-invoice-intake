@@ -1,2 +1,35 @@
-# automated-invoice-intake
-Take-home assignment for the AI Agent Engineer role: Automating Japanese invoice data entry using a multimodal LLM, Python, and a mock accounting API.
+# Automated Invoice Intake
+
+AI-assisted intake for Japanese invoices. Gemini and Groq alternate invoice calls, while deterministic Python validation checks the extracted supplier, dates, tax codes, and totals before the accounting API receives anything.
+
+## Setup
+
+Use Python 3.9+ and install dependencies:
+
+```powershell
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+```
+
+Set `.env` file:
+
+When both are configured, invoices alternate Gemini then Groq. If the selected provider fails, the other configured provider is tried immediately. Groq handles image invoices; PDF invoices fall back to Gemini because the Groq chat endpoint accepts image inputs, not PDF files. The accounting API defaults to `http://localhost:8080` and `demo-key-1234`.
+
+Start the mock accounting API in one terminal:
+
+```powershell
+.\.venv\Scripts\python.exe sample\accounting_api.py
+```
+
+Start invoice intake in another terminal:
+
+```powershell
+.\.venv\Scripts\python.exe main.py
+```
+
+The runner processes every PDF and image in `invoices/`. Valid results are submitted. Invalid or rejected results are written to `review_queue.json`. To extract and validate without changing the accounting system, use:
+
+```powershell
+.\.venv\Scripts\python.exe main.py --dry-run
+```
+
+The AI's role is limited to visual extraction and supplier matching. Code owns provider rotation, business-rule validation, API integration, fallback/review routing, and the final audit output.

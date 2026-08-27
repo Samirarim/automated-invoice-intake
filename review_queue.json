@@ -1,0 +1,86 @@
+[
+  {
+    "file": "invoice_01.pdf",
+    "errors": [
+      "processing error: gemini: Gemini failed: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key not valid. Please pass a valid API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'API_KEY_INVALID', 'domain': 'googleapis.com', 'metadata': {'service': 'generativelanguage.googleapis.com'}}, {'@type': 'type.googleapis.com/google.rpc.LocalizedMessage', 'locale': 'en-US', 'message': 'API key not valid. Please pass a valid API key.'}]}}; groq: Groq provider supports image invoices only"
+    ],
+    "extracted_data": null
+  },
+  {
+    "file": "invoice_02.pdf",
+    "errors": [
+      "processing error: groq: Groq provider supports image invoices only; gemini: Gemini failed: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key not valid. Please pass a valid API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'API_KEY_INVALID', 'domain': 'googleapis.com', 'metadata': {'service': 'generativelanguage.googleapis.com'}}, {'@type': 'type.googleapis.com/google.rpc.LocalizedMessage', 'locale': 'en-US', 'message': 'API key not valid. Please pass a valid API key.'}]}}"
+    ],
+    "extracted_data": null
+  },
+  {
+    "file": "invoice_03.pdf",
+    "errors": [
+      "processing error: gemini: Gemini failed: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key not valid. Please pass a valid API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'API_KEY_INVALID', 'domain': 'googleapis.com', 'metadata': {'service': 'generativelanguage.googleapis.com'}}, {'@type': 'type.googleapis.com/google.rpc.LocalizedMessage', 'locale': 'en-US', 'message': 'API key not valid. Please pass a valid API key.'}]}}; groq: Groq provider supports image invoices only"
+    ],
+    "extracted_data": null
+  },
+  {
+    "file": "invoice_04.jpg",
+    "errors": [
+      "processing error: groq: Groq failed: 401 Client Error: Unauthorized for url: https://api.groq.com/openai/v1/chat/completions; gemini: Gemini failed: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key not valid. Please pass a valid API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'API_KEY_INVALID', 'domain': 'googleapis.com', 'metadata': {'service': 'generativelanguage.googleapis.com'}}, {'@type': 'type.googleapis.com/google.rpc.LocalizedMessage', 'locale': 'en-US', 'message': 'API key not valid. Please pass a valid API key.'}]}}"
+    ],
+    "extracted_data": null
+  },
+  {
+    "file": "invoice_05.jpg",
+    "errors": [
+      "processing error: gemini: Gemini failed: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key not valid. Please pass a valid API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'API_KEY_INVALID', 'domain': 'googleapis.com', 'metadata': {'service': 'generativelanguage.googleapis.com'}}, {'@type': 'type.googleapis.com/google.rpc.LocalizedMessage', 'locale': 'en-US', 'message': 'API key not valid. Please pass a valid API key.'}]}}; groq: Groq failed: 401 Client Error: Unauthorized for url: https://api.groq.com/openai/v1/chat/completions"
+    ],
+    "extracted_data": null
+  },
+  {
+    "file": "invoice_06.jpg",
+    "errors": [
+      "processing error: groq: Groq failed: 401 Client Error: Unauthorized for url: https://api.groq.com/openai/v1/chat/completions; gemini: Gemini failed: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key not valid. Please pass a valid API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'API_KEY_INVALID', 'domain': 'googleapis.com', 'metadata': {'service': 'generativelanguage.googleapis.com'}}, {'@type': 'type.googleapis.com/google.rpc.LocalizedMessage', 'locale': 'en-US', 'message': 'API key not valid. Please pass a valid API key.'}]}}"
+    ],
+    "extracted_data": null
+  },
+  {
+    "file": "invoice_07.jpg",
+    "errors": [
+      "processing error: gemini: Gemini failed: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key not valid. Please pass a valid API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'API_KEY_INVALID', 'domain': 'googleapis.com', 'metadata': {'service': 'generativelanguage.googleapis.com'}}, {'@type': 'type.googleapis.com/google.rpc.LocalizedMessage', 'locale': 'en-US', 'message': 'API key not valid. Please pass a valid API key.'}]}}; groq: Groq failed: 401 Client Error: Unauthorized for url: https://api.groq.com/openai/v1/chat/completions"
+    ],
+    "extracted_data": null
+  },
+  {
+    "file": "invoice_08.jpg",
+    "errors": [
+      "processing error: groq: Groq failed: 401 Client Error: Unauthorized for url: https://api.groq.com/openai/v1/chat/completions; gemini: Gemini failed: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key not valid. Please pass a valid API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'API_KEY_INVALID', 'domain': 'googleapis.com', 'metadata': {'service': 'generativelanguage.googleapis.com'}}, {'@type': 'type.googleapis.com/google.rpc.LocalizedMessage', 'locale': 'en-US', 'message': 'API key not valid. Please pass a valid API key.'}]}}"
+    ],
+    "extracted_data": null
+  },
+  {
+    "file": "invoice_09.pdf",
+    "errors": [
+      "processing error: gemini: Gemini failed: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key not valid. Please pass a valid API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'API_KEY_INVALID', 'domain': 'googleapis.com', 'metadata': {'service': 'generativelanguage.googleapis.com'}}, {'@type': 'type.googleapis.com/google.rpc.LocalizedMessage', 'locale': 'en-US', 'message': 'API key not valid. Please pass a valid API key.'}]}}; groq: Groq provider supports image invoices only"
+    ],
+    "extracted_data": null
+  },
+  {
+    "file": "invoice_10.jpg",
+    "errors": [
+      "processing error: groq: Groq failed: 401 Client Error: Unauthorized for url: https://api.groq.com/openai/v1/chat/completions; gemini: Gemini failed: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key not valid. Please pass a valid API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'API_KEY_INVALID', 'domain': 'googleapis.com', 'metadata': {'service': 'generativelanguage.googleapis.com'}}, {'@type': 'type.googleapis.com/google.rpc.LocalizedMessage', 'locale': 'en-US', 'message': 'API key not valid. Please pass a valid API key.'}]}}"
+    ],
+    "extracted_data": null
+  },
+  {
+    "file": "invoice_11.jpg",
+    "errors": [
+      "processing error: gemini: Gemini failed: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key not valid. Please pass a valid API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'API_KEY_INVALID', 'domain': 'googleapis.com', 'metadata': {'service': 'generativelanguage.googleapis.com'}}, {'@type': 'type.googleapis.com/google.rpc.LocalizedMessage', 'locale': 'en-US', 'message': 'API key not valid. Please pass a valid API key.'}]}}; groq: Groq failed: 401 Client Error: Unauthorized for url: https://api.groq.com/openai/v1/chat/completions"
+    ],
+    "extracted_data": null
+  },
+  {
+    "file": "invoice_12.jpg",
+    "errors": [
+      "processing error: groq: Groq failed: 401 Client Error: Unauthorized for url: https://api.groq.com/openai/v1/chat/completions; gemini: Gemini failed: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key not valid. Please pass a valid API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'API_KEY_INVALID', 'domain': 'googleapis.com', 'metadata': {'service': 'generativelanguage.googleapis.com'}}, {'@type': 'type.googleapis.com/google.rpc.LocalizedMessage', 'locale': 'en-US', 'message': 'API key not valid. Please pass a valid API key.'}]}}"
+    ],
+    "extracted_data": null
+  }
+]
