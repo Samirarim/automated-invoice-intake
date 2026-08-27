@@ -11,7 +11,19 @@ Use Python 3.9+ and install dependencies:
 ```
 
 Set `.env` file:
+```text
+# Gemini API Setup
+GEMINI_API_KEY=your_gemini_api_key_here
 
+# Groq API Setup
+GROQ_API_KEY=your_groq_api_key_here
+GROQ_MODEL=meta-llama/llama-4-scout-17b-16e-instruct
+GROQ_API_URL=https://api.groq.com/openai/v1/chat/completions
+
+# Accounting System API Configuration
+ACCOUNTING_API_URL=http://localhost:8080
+ACCOUNTING_API_KEY=your_accounting_api_key_here
+```
 When both are configured, invoices alternate Gemini then Groq. If the selected provider fails, the other configured provider is tried immediately. Groq handles image invoices; PDF invoices fall back to Gemini because the Groq chat endpoint accepts image inputs, not PDF files. The accounting API defaults to `http://localhost:8080` and `demo-key-1234`.
 
 Start the mock accounting API in one terminal:
